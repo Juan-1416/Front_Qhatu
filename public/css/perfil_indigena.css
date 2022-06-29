@@ -1,0 +1,26 @@
+p{
+    color: black;
+}
+
+.titlesmd{
+    color: #d3a929;
+}
+.fondo{
+    background-color: rgb(236, 239, 241);
+}
+.ImgS{
+    width: 100%;
+
+  }
+.Im{
+    max-width: 70%;
+    border-radius: 150%;
+
+}
+.perfilind{
+padding-top: 12%;
+padding-bottom: 6%;
+}
+.boton{
+    padding-top: 8%;
+}
