@@ -1,3 +1,8 @@
 .nico{
     background-color: rgba(27, 27, 70, 0.21);
 }
+button{
+    width: 20%;
+    background-color: #020246;
+    color: aliceblue;
+}

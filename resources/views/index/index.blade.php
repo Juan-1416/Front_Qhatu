@@ -1,6 +1,7 @@
 <div class="container-fluid">
     <x-heder />
 </div>
+<link rel="stylesheet" href="css/index.css">
 <section class="fondo cuerpo_index">
     <section class="container-fluid d-flex flex-wrap">
         <article class="texto col-12  col-md-6  col-xxl-6 ">
@@ -43,7 +44,7 @@
     </section>
 
     <section class="container-fluid d-flex  justify-content-evenly row row-cols-4">
-        <article class="tarjeta card p-4 pt-5 mt-5 shadow-lg p-3 mb-5 rounded-4" style="width: 22rem;">
+        <a href="{{url('detalle_producto')}}"> <article class="tarjeta card p-4 pt-5 mt-5 shadow-lg p-3 mb-5 rounded-4" style="width: 22rem;">
             <img src="img/producto1.png" class="card-img-top" alt="img" height="300" width="200">
             <article class="card-body">
                 <section class="d-flex justify-content-between">
@@ -52,8 +53,8 @@
                 </section>
                 <h6 class="text-success">$100000</h6>
             </article>
-        </article>
-        <article class="card p-4 pt-5 mt-5 shadow-lg p-3 mb-5 rounded-4" style="width: 22rem;">
+        </article></a>
+        <a href="{{url('detalle_producto')}}"> <article class="tarjeta card p-4 pt-5 mt-5 shadow-lg p-3 mb-5 rounded-4" style="width: 22rem;">
             <img src="img/producto2.png" class="card-img-top" alt="img" height="300" width="200">
             <article class="card-body">
                 <section class="d-flex justify-content-between">
@@ -62,8 +63,8 @@
                 </section>
                 <h6 class="text-success">$100000</h6>
             </article>
-        </article>
-        <article class="card p-4 pt-5 mt-5 shadow-lg p-3 mb-5 rounded-4" style="width: 22rem;">
+        </article></a>
+        <a href="{{url('detalle_producto')}}"> <article class="tarjeta card p-4 pt-5 mt-5 shadow-lg p-3 mb-5 rounded-4" style="width: 22rem;">
             <img src="img/producto3.png" class="card-img-top" alt="img" height="300" width="200">
             <article class="card-body">
                 <section class="d-flex justify-content-between">
@@ -72,8 +73,8 @@
                 </section>
                 <h6 class="text-success">$100000</h6>
             </article>
-        </article>
-        <article class="card p-4 pt-5 mt-5 shadow-lg p-3 mb-5 rounded-4" style="width: 22rem;">
+        </article></a>
+        <a href="{{url('detalle_producto')}}"> <article class="tarjeta card p-4 pt-5 mt-5 shadow-lg p-3 mb-5 rounded-4" style="width: 22rem;">
             <img src="img/producto1.png" class="card-img-top" alt="img" height="300" width="200">
             <article class="card-body">
                 <section class="d-flex justify-content-between">
@@ -82,8 +83,8 @@
                 </section>
                 <h6 class="text-success">$100000</h6>
             </article>
-        </article>
-        <article class="card p-4 pt-5 mt-5 shadow-lg p-3 mb-5 rounded-4" style="width: 22rem;">
+        </article></a>
+        <a href="{{url('detalle_producto')}}"> <article class="tarjeta card p-4 pt-5 mt-5 shadow-lg p-3 mb-5 rounded-4" style="width: 22rem;">
             <img src="img/producto2.png" class="card-img-top" alt="img" height="300" width="200">
             <article class="card-body">
                 <section class="d-flex justify-content-between">
@@ -92,8 +93,8 @@
                 </section>
                 <h6 class="text-success">$100000</h6>
             </article>
-        </article>
-        <article class="card p-4 pt-5 mt-5 shadow-lg p-3 mb-5 rounded-4" style="width: 22rem;">
+        </article></a>
+        <a href="{{url('detalle_producto')}}"> <article class="tarjeta card p-4 pt-5 mt-5 shadow-lg p-3 mb-5 rounded-4" style="width: 22rem;">
             <img src="img/producto3.png" class="card-img-top" alt="img" height="300" width="200">
             <article class="card-body">
                 <section class="d-flex justify-content-between">
@@ -102,8 +103,8 @@
                 </section>
                 <h6 class="text-success">$100000</h6>
             </article>
-        </article>
-        <article class="card p-4 pt-5 mt-5 shadow-lg p-3 mb-5 rounded-4" style="width: 22rem;">
+        </article></a>
+        <a href="{{url('detalle_producto')}}"> <article class="tarjeta card p-4 pt-5 mt-5 shadow-lg p-3 mb-5 rounded-4" style="width: 22rem;">
             <img src="img/producto2.png" class="card-img-top" alt="img" height="300" width="200">
             <article class="card-body">
                 <section class="d-flex justify-content-between">
@@ -112,8 +113,8 @@
                 </section>
                 <h6 class="text-success">$100000</h6>
             </article>
-        </article>
-        <article class="card p-4 pt-5 mt-5 shadow-lg p-3 mb-5 rounded-4" style="width: 22rem;">
+        </article></a>
+        <a href="{{url('detalle_producto')}}"> <article class="tarjeta card p-4 pt-5 mt-5 shadow-lg p-3 mb-5 rounded-4" style="width: 22rem;">
             <img src="img/producto3.png" class="card-img-top" alt="img" height="300" width="200">
             <article class="card-body">
                 <section class="d-flex justify-content-between">

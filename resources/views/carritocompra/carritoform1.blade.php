@@ -41,9 +41,12 @@
                     </section>
 
 
-
+                    <section class="  text-lg-center container">
+                        <a href="{{url('carritoform2')}}"><button class="btn-btn" type="button">Next-></button></a>
+                    </section>
                 </form>
             </article>
+
 
 
 

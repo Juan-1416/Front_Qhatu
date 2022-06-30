@@ -110,7 +110,7 @@
             </section>
 
             <section class="  text-lg-center container">
-                <button class="btn-btn" type="button">Next-></button>
+                <a href="{{url('carritoform3')}}"><button class="btn-btn" type="button">Next-></button></a>
             </section>
         </article>
     </article>

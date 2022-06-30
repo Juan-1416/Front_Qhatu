@@ -13,9 +13,9 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
-});
+// Route::get('/', function () {
+//     return view('welcome');
+// });
 Route::get('/', function () {
 return view('index.index');
 });
@@ -47,3 +47,10 @@ Route::get('/carritoform4',function(){
     return view('carritocompra.carritoform4');
 });
 
+Route::get('/detalle_producto',function(){
+    return view('detalle_producto.detalle_producto');
+});
+
+Route::get('/subir_compra',function(){
+    return view('subir_compra.subir_compra');
+});

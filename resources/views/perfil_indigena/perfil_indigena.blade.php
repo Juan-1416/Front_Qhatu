@@ -75,7 +75,7 @@
                 producto se venda mas rapido.
               </p>
 
-              <input type="button" name="vender" value="VENDER" />
+              <a href="{{url('subir_compra')}}"><input type="button" name="vender" value="VENDER" /></a>
             </section>
 
             <section class="container">

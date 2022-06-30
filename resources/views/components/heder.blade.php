@@ -14,6 +14,9 @@
         <link rel="stylesheet" href="css/index.css">
         <link rel="stylesheet" href="css/perfil_indigena.css">
         <link rel="stylesheet" href="css/registrar.css">
+        <link rel="stylesheet" href="css/detalle_producto.css">
+        <link rel="stylesheet" href="css/subir_compra.css">
+
 
 
         {{-- Perfil indigena Duvan --}}
@@ -67,8 +70,8 @@
                                 </button>
                                 <div class="navbar-nav  d-flex justify-content-evenly w-100">
                                     <section class=" d-flex gap-4 justify-content-center w-75">
-                                        <a class="nav_Qhatu nav-link active m-0 text-muted" aria-current="page" href="#">
-                                            <p class="d-flex p-0 m-0 fs-5">Inicio</p>
+                                        <a class="nav_Qhatu nav-link active m-0 text-muted" aria-current="page" href="{{url('http://127.0.0.1:8000')}}">
+                                            <p class="d-flex p-0 m-0 fs-5">Inicio </p>
                                         </a>
                                         <ul class="navbar-nav">
                                             <li class="nav-item dropdown">
@@ -119,7 +122,7 @@
                                                 <li><a class="nav_Qhatu dropdown-item" href="{{url('http://127.0.0.1:8000')}}">Cerrar session</a></li>
                                             </ul>
                                         </li>
-                                        <a class="nav-link " href="#"><i
+                                        <a class="nav-link " href="{{url('carritoform1')}}"><i
                                                 class="nav_Qhatu fa-solid fa-cart-shopping fs-4"></i></a>
 
 
