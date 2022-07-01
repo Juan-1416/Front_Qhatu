@@ -39,7 +39,7 @@
                 </section>
                 <hr>
                 <article class="pie-form">
-                    <a href="#">¿Ya tienes una cuenta? inicia session</a>
+                    <a href="{{url('iniciarsesion')}}">¿Ya tienes una cuenta? inicia session</a>
                     <hr>
                     <section class="login_red_social">
                         <h2>Registrate con:</h2>
